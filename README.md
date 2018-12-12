@@ -30,7 +30,7 @@ import { Controller } from 'egg';
 
 export default class HomeController extends Controller {
   public async index() {
-    thus.txt.body = this.app.kafkaClient.ready
+    this.txt.body = this.app.kafkaClient.ready
   }
 }
    
